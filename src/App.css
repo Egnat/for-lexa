@@ -40,7 +40,7 @@ webkit-filter:blur(135px);
 background-size:cover;
 background-repeat:no-repeat;
 background-attachment:fixed;
-box-shadow:inset 1280px 844px #170000
+box-shadow:inset 1280px 844px rgb(9 16 255 / 0%)
 }
 
 * {
@@ -57,8 +57,8 @@ padding-top:120p
 }
 
 .header {
- height: 881px;
-background-image: url(../public/images/les-gory-ozero-sineva-bereg-eli-kanada-vodoem-natsionalnyi-1.jpg) ;/*"http://denis-creative.com/wp-content/uploads/2018/05/mountain.jpg" 
+ height: 881p;
+ackground-image: url(../public/images/les-gory-ozero-sineva-bereg-eli-kanada-vodoem-natsionalnyi-1.jpg) ;/*"http://denis-creative.com/wp-content/uploads/2018/05/mountain.jpg" 
 les-gory-ozero-sineva-bereg-eli-kanada-vodoem-natsionalnyi-1.jpg*/
 background-size: cover;
 -webkit-filter:blur(10p); 
@@ -66,138 +66,51 @@ box-shadow:inset 1280px 844px rgb(9 16 255 / 0%);
 }
 
 .header-container {
-padding-top:55px
+padding-top:55p
 }
 
 .navigation {
-margin-bottom:400px;
+margin-bottom:400p;
 -webkit-filter:blur(10p)
 }
 
-.header-link {
-color:#fff;
-font-size:20px;
-text-decoration-line:none
+.header-container__content {
+display:fle
 }
 
-.header-logo {
+.screenTwo-container__content__filter-greetings {
+width: 1280px;
+height: 1279px;
+margin: 0 auto;
+background-image: url(https://bronk.club/uploads/posts/2022-08/1660303131_10-bronk-club-p-otkritka-s-rozhdeniem-sinochka-11.jpg);
+background-size: cover;
+}
+
+.screenTwo-link {
+display: block;   
+width: 1px;
+height: 1px;   
+text-decoration-line:none;
+padding-top: 6px;
+margin-left: 8px;
+}
+
+.screenTwo-logo {
 width:50px;
 height:50px
 }
 
-.header-container__content {
-display:flex
-}
-
-.header-text__h1 {
-width:1110px;
-padding-bottom:33p;
-margin:0;
-font-size:106px;
-text-align:center;
-text-transform:uppercase;
-letter-spacing:.035em;
-color:#fff
-}
-
-.filter-hand {
-isplay:block;
-margin:0 auto;
-width:451px;
-height:278px;
-margin-top:148px;
-object-fit:scale-down;
-background-image:url(../public/images/hand.png);
-background-size:cover;
-ransform:matrix(-1,0,0,1,0,0);
--webkit-filter:blur(1px)
-}
-
-.filter-lake {
-position:absolute;
-display:block;
-width:198px;
-height:150px;
-top:297px;
-left:1060px;
-border-radius:69px;
-background-image:url(../public/images/images-1-2-3.png);
-background-size:cover;
--webkit-filter:blur(1px);
-box-shadow:inset 1280px 844px rgb(9 16 255 / 0%)
-}
-
-.cardAdd_flowers {
-position: absolute;
-width: 221p;
-height: 145p;
-right: 499px;
-bottom: 41px;
-margin: 0;
-ackground-image: url(../public/images/box-benzin-preview.png);/*treeth-benzin-preview-1-2.png*/
-background-size: cover;
--webkit-filter:blur(1p);
-box-shadow:inset 1280px 844px rgb(9 16 255 / 0%); 
-z-index: 2;
-cursor: pointer;
-ransform:matrix(-1,0,0,1,0,0); 
-}
-
-.box {
-width:211px
-}
-
-.photoOff_filter-flowers {
-position:absolute;
-display:none;
-bottom:272px;
-left:414px;
-margin:0
-}
-
-.candys {
-position:absolute;
-width:300px;
-height:300px;
-top:249px;
-right:353px
-}
-
-.flowers {
-width:500px;
-height:500px
-}
-
-.botle {
-position:absolute;
-width:356px;
-height:308px;
-top:244px;
-right:-74px
-}
-
-.textAdd_text-box_greeting {
-position:absolute;
-display:none;
-width:1110px;
-right:231p;
-margin:0;
-bottom:-52p;
-font-size:54px;
-text-transform:uppercase;
-letter-spacing:.035em;
-background:linear-gradient(90.14deg,#00FF38 1.91%,#BD00FF 50.81%,#FF8C04 101.53%);
--webkit-background-clip:text;
-webkit-text-fill-color:transparent;
-background-clip:text;
-text-fill-color:transparent
-}
-
 .footer {
 padding:120p 0;
+background-color: #482e0e;
 text-align:center;
 font-size:15px;
-color:#fff
+color:#fff;
+margin: 0 auto
+}
+
+.footer-text {
+margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
